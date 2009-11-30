@@ -1,0 +1,7 @@
+# User and group to run PHP processes under
+USER="http"
+GROUP="http"
+
+# Address and port to bind to
+ADDRESS="127.0.0.1"
+PORT="9001"
