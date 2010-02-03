@@ -1,6 +1,6 @@
 # Contributor: Ron Huang <ronhuang+aur at gmail dot com>
 pkgname=fcgiwrap
-pkgver=20091201
+pkgver=20100203
 pkgrel=1
 pkgdesc="Simple FastCGI wrapper for CGI scripts"
 arch=('i686' 'x86_64')
