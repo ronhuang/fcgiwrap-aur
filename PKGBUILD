@@ -14,7 +14,7 @@ source=(conf initscript)
 md5sums=('e5c762dba6620d51a194a0abae94e620'
          '003bd57f1b1006f7d9cef75379ea478d')
 
-_gitroot="git://github.com/gnosek/fcgiwrap.git"
+_gitroot="http://github.com/gnosek/fcgiwrap.git"
 
 build() {
   msg "Connecting to GIT server..."
