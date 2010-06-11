@@ -1,7 +1,7 @@
-# User and group to run PHP processes under
+# Permission which the wrapper will be launched.
 USER="http"
 GROUP="http"
 
-# Address and port to bind to
+# Address and port which the wrapper will be listening to.
 ADDRESS="127.0.0.1"
 PORT="9001"
