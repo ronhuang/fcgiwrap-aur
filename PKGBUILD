@@ -12,7 +12,7 @@ backup=('etc/conf.d/$pkgname')
 install=fcgiwrap.install
 source=(conf initscript)
 md5sums=('b56d102805e8ec6cbbbc67ce9df482e7'
-         '43eb695f9e9d09b09aa214e96394bdc0')
+         '436473f30af08984aa18885df9240606')
 
 _gitroot="http://github.com/gnosek/fcgiwrap.git"
 
