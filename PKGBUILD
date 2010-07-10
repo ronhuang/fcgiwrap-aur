@@ -11,7 +11,7 @@ makedepends=('git' 'autoconf' 'automake' 'fcgi')
 backup=('etc/conf.d/fcgiwrap')
 install=fcgiwrap.install
 source=(conf initscript)
-md5sums=('45f34f825c2a361edf476f6598a61177'
+md5sums=('2a4fa3e8a96610423875040fba35d53e'
          '0716a447478c478f0a00a34b85076173')
 
 _gitroot="http://github.com/gnosek/fcgiwrap.git"
