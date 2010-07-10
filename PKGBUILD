@@ -1,6 +1,6 @@
 # Contributor: Ron Huang <ronhuang+aur at gmail dot com>
 pkgname=fcgiwrap
-pkgver=20100611
+pkgver=20100710
 pkgrel=1
 pkgdesc="Simple FastCGI wrapper for CGI scripts"
 arch=('i686' 'x86_64')
@@ -11,8 +11,8 @@ makedepends=('git' 'autoconf' 'automake' 'fcgi')
 backup=('etc/conf.d/$pkgname')
 install=fcgiwrap.install
 source=(conf initscript)
-md5sums=('b56d102805e8ec6cbbbc67ce9df482e7'
-         '436473f30af08984aa18885df9240606')
+md5sums=('45f34f825c2a361edf476f6598a61177'
+         '0716a447478c478f0a00a34b85076173')
 
 _gitroot="http://github.com/gnosek/fcgiwrap.git"
 
