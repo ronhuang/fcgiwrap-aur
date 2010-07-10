@@ -5,3 +5,7 @@ GROUP="http"
 # Address and port which the wrapper will be listening to.
 ADDRESS="127.0.0.1"
 PORT="9001"
+
+# Number of child process that are spawned.
+FORK_CHILDREN=4
+PHP_CHILDREN=0

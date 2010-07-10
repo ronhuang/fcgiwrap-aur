@@ -20,7 +20,7 @@ case "$1" in
     if [ -z "$PID" ]; then
       [ -f /var/run/$daemon_name.pid ] && rm -f /var/run/$daemon_name.pid
       # RUN
-      $spawner -a $ADDRESS -p $PORT -u $USER -g $GROUP -f $bin
+      $spawner -a $ADDRESS -p $PORT -u $USER -g $GROUP -f $bin -C $PHP_CHILDREN -F $FORK_CHILDREN
       #
       if [ $? -gt 0 ]; then
         stat_fail
